@@ -111,6 +111,42 @@
       color: var(--accent);
     }
 
+    .research-interests {
+      margin-top: 32px;
+      margin-bottom: 40px;
+      opacity: 0;
+      animation: fadeUp 0.7s 0.5s forwards;
+    }
+ 
+    .research-interests h3 {
+      font-size: 0.75rem;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      color: var(--ink-faint);
+      margin-bottom: 12px;
+    }
+ 
+    .research-keywords {
+      display: flex; flex-wrap: wrap; gap: 8px;
+      margin-bottom: 10px;
+    }
+ 
+    .research-keyword {
+      font-size: 0.8rem;
+      padding: 4px 12px;
+      border: 1px solid var(--accent);
+      border-radius: 100px;
+      color: var(--accent);
+      background: var(--accent-light);
+    }
+ 
+    .research-desc {
+      font-size: 0.88rem;
+      color: var(--ink-muted);
+      line-height: 1.7;
+      margin-top: 10px;
+    }
+ 
     .hero-bio {
       font-size: 1.05rem;
       color: var(--ink-muted);
@@ -444,8 +480,19 @@
     intelligent systems. Currently pursuing my PhD at Seoul National University under Prof. Minjun Lee.
   </p>
 
- 
+   <div class="research-interests">
+    <h3>Research Interests</h3>
+    <div class="research-keywords">
+      <span class="research-keyword">AI Music Generation</span>
+      <span class="research-keyword">Music Technology</span>
+      <span class="research-keyword">Sound Design</span>
+      <span class="research-keyword">Human-Computer Interaction</span>
+      <span class="research-keyword">Music Production</span>
+    </div>
+    <p class="research-desc">Exploring the relationship between artificial intelligence and human musical creativity, and how technology can augment the music production process.</p>
+  </div>
 
+  
   <!-- Contact -->
   <div class="contact-chips">
     <a class="chip" href="mailto:narae6753@gmail.com">
